@@ -14,12 +14,15 @@ public class Main {
      * @throws java.io.IOException
      */
     public static void main(String[] args) throws IOException {
+        
+       // ***** /!\ UTILISER CECI POUR LES TESTS /!\ ***** //
        Monde m,newm;
        m= LectureFichier.LireFichier("./world.txt");
        newm=AlgoProcheVoisin.projAlgoProcheVoisin(m);
        Sauvegarde.sauv(newm);
         
-        
+       
+       // ***** /!\ 
     }
     
 }

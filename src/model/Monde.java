@@ -15,9 +15,10 @@ public class Monde {
         nbVilleTraitee = 0;
     }
     
-    
-    
     public int getNbVilleTotal(){return NbVilleTotal;}
+    
+    public Ville getVille(int numVille){return tabVille[numVille];}
+    public Ville[] getTabVille(){return tabVille;}
     
     public float getDistanceTotal(){return distanceTotal;}
     public void setDistanceTotal(float DTValue){distanceTotal = DTValue;}
