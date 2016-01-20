@@ -5,17 +5,17 @@ public class Monde {
     
     public Ville[] tabVille;
     private float distanceTotal;
-    private int NbVilleTotal;
+    private int nbVilleTotal;
     private int nbVilleTraitee;
     
     public Monde(int taille){
         tabVille = new Ville[taille];
-        NbVilleTotal = taille;
+        nbVilleTotal = taille;
         distanceTotal = 0;
         nbVilleTraitee = 0;
     }
     
-    public int getNbVilleTotal(){return NbVilleTotal;}
+    public int getNbVilleTotal(){return nbVilleTotal;}
     
     public Ville getVille(int numVille){return tabVille[numVille];}
     public Ville[] getTabVille(){return tabVille;}
